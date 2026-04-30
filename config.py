@@ -6,7 +6,7 @@ API_HASH = os.environ.get("API_HASH", "344c241bb482993a8b318848421319f3")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8605427721:AAHeo63F4QU9rA1Jdph6yhDOCVEbG0dQeNQ")
 ADMIN = int(os.environ.get("ADMIN", "7811733658"))
 PICS = (os.environ.get("PICS", "https://i.ibb.co/MDssddJp/pic.jpg https://i.ibb.co/n8fQ2xcx/pic.jpg")).split()
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001301597448"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003830765716"))
 NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "True").lower() == "true"
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://Sanjay20022:Sanjay@20022@cluster0.btgw8dj.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "approve")
